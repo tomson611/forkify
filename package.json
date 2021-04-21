@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Forkify recipe app, used for learning JavaScript, part of Jonas Schmedtmann's \"The Complete JavaScript Course 2021: From Zero to Expert!\" Udemy course.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomson611/forkify.git"
+  },
+  "author": "Tomasz Wesołowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomson611/forkify/issues"
+  },
+  "homepage": "https://github.com/tomson611/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  }
+}
