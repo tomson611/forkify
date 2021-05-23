@@ -16,11 +16,10 @@ class PaginationView extends View {
 
   _generateMarkup() {
     const curPage = this._data.page;
-    console.log(curPage);
+
     const numPages = Math.ceil(
       this._data.results.length / this._data.resultsPerPage
     );
-    console.log(numPages);
 
     if (curPage === 1 && numPages > 1) {
       return `<button data-goto="${
