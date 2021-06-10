@@ -2,10 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Forkify recipe app, used for learning JavaScript, part of Jonas Schmedtmann's \"The Complete JavaScript Course 2021: From Zero to Expert!\" Udemy course.",
-  "main": "index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,6 @@
     "url": "https://github.com/tomson611/forkify/issues"
   },
   "homepage": "https://github.com/tomson611/forkify#readme",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "parcel": "^2.0.0-beta.2"
-  },
   "dependencies": {
     "@babel/plugin-proposal-private-methods": "^7.13.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.13.0",
@@ -33,5 +29,10 @@
       "@babel/plugin-proposal-class-properties",
       "@babel/plugin-proposal-private-methods"
     ]
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
   }
 }
